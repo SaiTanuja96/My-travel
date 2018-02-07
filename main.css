@@ -1,0 +1,141 @@
+@charset "utf-8";
+html,
+body{
+    height: 100vh;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    font-family: 'Allerta Stencil',sans-serif;
+}
+@media (max-width:575px){
+    
+}
+@media (min-width:576px) and (max-width:767px){
+   
+}
+@media (min-width:768px) and (max-width:991px){
+   
+    
+}
+    
+    
+@media (min-width:992px) and (max-width:1199px){
+  
+    margin-bottom: 2rem;
+     
+}
+@media (min-width:1200px) {
+    
+}
+
+.collapse.navbar-collapse ul li a.nav-item {
+    color: black;
+}
+
+.collapse.navbar-collapse ul li.active a.nav-link {
+    color: black;
+}  
+
+.mynav a.navbar-brand{
+    color: blue;
+    font-size: 2rem
+    
+}
+.backimg{
+    background-image: url(../travel/img/navbarimg.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: top center center;
+    background-size: cover;
+    position: relative;
+    height: 650px;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+    
+}
+
+.heading{
+    position: absolute;
+    top: 200px;
+    left: 260px;
+    color: darkblue;
+}
+.heading:hover{
+    color: black;
+}
+.card-box{
+    width: 70%;
+    position: absolute;
+    top: 400px;
+    left:80px;
+    background: rgba(34,34,34,0.8);
+    color: white;
+}
+.text{
+    width: 90%;
+    text-align: center;
+    overflow: hidden;
+    height: 11rem;
+    
+}
+.discount{
+   width: 35%;
+    float:left;
+}
+.discount1{
+    width: 65%;
+    float: left;
+}
+.discount1 p{
+    font-family: sans-serif;
+    font-size: 2rem;
+    padding: 2rem;
+    
+}
+.text-discount{
+    color: rgba(255,255,255,0.7)
+}
+.text-shade{
+    color: deeppink;
+}
+.space{
+    padding-top: 2rem;
+}
+.carousel-item{
+    max-height: 30rem;
+}
+#showcase{
+    
+    background:#FBE7C7;
+    padding:2rem 0;
+
+}
+.card{
+    margin-right: 2rem;
+}
+.heading-gallery{
+    font-size: 1.2rem;
+}
+.item i{
+    color: hotpink;
+    padding: 1.2rem 0;
+    
+}
+.item{
+  font-size: 0.8rem;
+    padding: 1rem 0.7rem;
+    border-right: 1px solid #ccc;
+}
+.item:last-child{
+    border-right: 0;
+}
+.footer-main{
+    
+    background-color:rgba(34 34 34 0.6);
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem,0;
+}
